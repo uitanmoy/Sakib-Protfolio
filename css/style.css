@@ -1,0 +1,59 @@
+/* All Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1212px;
+    margin: 0 auto;
+}
+    
+/* All Common Css End */
+/* Header Part Css Start  */
+#headerPart{
+    background: #F9F9FC;
+    padding: 10px 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu ul{
+    display: flex;
+
+}
+.menu ul li a{
+    padding: 0 25px;
+    line-height: 70px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.button a{
+    padding: 10px 20px;
+    background: #5E3BEE;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+.button i{
+    margin-left: 5px;
+}
+/* Header Part Css End  */
