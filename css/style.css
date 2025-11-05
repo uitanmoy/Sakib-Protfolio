@@ -14,6 +14,11 @@ a{
 ul,ol{
     list-style-type: none;
 }
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
 .container{
     width: 1212px;
     margin: 0 auto;
@@ -57,3 +62,85 @@ ul,ol{
     margin-left: 5px;
 }
 /* Header Part Css End  */
+/* Banner Part Css Start  */
+#bannerPart{
+    background: #F9F9FC;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+.bannerContent{
+    display: flex;
+    justify-content: space-between;
+}
+.bannerleft{
+    width: 50%;
+}
+.bannerright{
+    width: 100%;
+}
+.bannerleft h2{
+    font-size: 60px;
+    font-weight: 700;
+    width: 480px;
+    color: #333333;
+    line-height: 78px;
+    padding-bottom: 30px;
+}
+.bannerleft h3{
+    font-size: 16px;
+    font-weight: 500;
+    width: 500px;
+    color: #5E3BEE;
+    text-transform: uppercase;
+    padding-top: 115px;
+    padding-bottom: 50px;
+}
+    
+.bannerButton a{
+    padding: 10px 20px;
+    background: #5E3BEE;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+.bannerButton a{
+    transition: .4s;
+}
+
+.bannerButton i{
+    margin-left: 0 !important;
+    margin-right: 10px;
+}
+
+.bannerButton a:hover{
+    background: transparent;
+    color: #333333;
+
+}
+/* Banner Part Css end  */
+/* counter part css start */
+#counterPart{
+    padding: 90px 0;
+}
+.counterContent{
+    display: flex;
+    justify-content: space-between;
+}
+.singleCounter{
+    text-align: center;
+}
+.counterContent h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(18, 18, 18,70%);
+}
+.counterContent h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #333333;
+    padding-bottom: 10px;
+}
+/* counter part css end */
